@@ -1,44 +1,41 @@
-# apiAutomationTest
-Very simple API Automation test to verify details at given endpoint
+# # apiAutomationTest
 
-README and believe me (my first API automation task...)
+_Very simple API Automation test to verify details at given endpoint_
+ README and _believe me_ (my first API automation task...)
 
-*** QA API Automation Assessment ***
+# QA - API Automation Assessment
 
-============================ Prerequisites ============================
-
+*====================  -Before you start-  ====================*
 This test has ben ran on Windows OS (32 bit)
+* Download these files and install
+[NodeJS (v8.9.4)](https://nodejs.org/en/download/)
+[Python (v2.7.9)](https://www.python.org/downloads/release/python-279/)
+* Install Newman using cmd: `npm install -g newman` with
 
-NodeJS (v8.9.4) Ref: https://nodejs.org/en/download/
-Python (v2.7.9) Ref: https://www.python.org/downloads/release/python-279/
-
-Appedn Environment variable on your system :
+Appedn Environment variable on your machine :
+```sh
 C:\Program Files\nodejs\
 C:\Program Files\Python27\Lib
+```
 
-Install Newman using cmd: npm install -g newman
+*====================  -Runing this test-  ====================*
 
-============================ Runing this test ============================
+**Note:** _To run this paramaterized test from command line (considering for CI/Jenkins run) use below command_
 
-Note: To run this paramaterized test from command line (considering for CI/Jenkins run) use below command:
+`newman run apiAirwallex_Collection.json -d ApiTestData.csv -e preview_environment.json
+`
 
-Open cmd prompt (windows)
+*====================  -File Details-  ====================*
 
-
-Run for preview env: newman run apiAirwallex_Collection.json -d ApiTestData.csv -e preview_environment.json
-
-- apiAirwallex_Collection.json : Postman API Collection file
-- ApiTestData.csv : test data file (we can include as many as test cases we want)
-- preview_environment.json : passing environemnt details through this file
+Postman API Collection file: `apiAirwallex_Collection.json`  
+Passing environemnt details through this file : `preview_environment.json`
+Test data file (we can include as many as test cases we want) : `ApiTestData.csv`
 
 
-As this 
-I decided to use this assignment as an opportunity to learn something, and have a go with Postman Collections and Newman.
+**soft note:** _In case you face issues running this tests you can message me_
 
-The test cases are all contained within the data.csv file; the columns ‘status’ and ‘response’ represent the expected values.
+Click to view my [GitHub](gists@eaccmk) profile
 
-Please see bugs.doc for a list of all the issues I found.
 
-At the moment I don’t think it’s very obvious how to match assertion errors in the command line output to the equivalent test cases in the data file, so would definitely want to improve on that (sorry).
-
-In case you face issues running this basic tests you can message me or or raise a request via this readme file
+[//]: # (Refered https://dillinger.io/  for this pretty formatting)
+[//]: # ([gists@eaccmk] <https://github.com/eaccmk/>)
