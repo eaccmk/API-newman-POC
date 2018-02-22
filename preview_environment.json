@@ -1,0 +1,17 @@
+{
+  "id": "2bdb9ba0-292e-080a-d49a-b717e4616bea",
+  "name": "Airwallex preview Env",
+  "values": [
+    {
+      "key": "url",
+      "value": "http://preview.airwallex.com:30001/bank",
+      "description": "preview web",
+      "type": "text",
+      "enabled": true
+    }
+  ],
+  "timestamp": 1218087154620,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2018-02-22T21:14:10.062Z",
+  "_postman_exported_using": "Postman/5.5.3"
+}
