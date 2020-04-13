@@ -1,8 +1,0 @@
-payment_method,bank_country_code,account_name,account_number,swift_code,bsb,aba,status,response
-\"SWIFT\",\"US\",\"John Smith\",\"123\",\"ICBCUSBJ\",\"\",\"11122233A\",200,{\"success\":\"Details saved Successfully\"}
-\"LOCAL\",\"US\",\"John Smith\",\"123\",\"ICBCUSBJ\",\"\",\"11122233A\",200,{\"success\":\"Details saved Successfully\"}
-\"\",\"US\",\"John Smith\",\"123\",\"ICBCUSBJ\",\"\",\"11122233A\",400,"{\"error\":\"'payment_method' required 'LOCAL' or 'SWIFT'\"}"
-\"IVALID\",\"US\",\"John Smith\",\"123\",\"ICBCUSBJ\",\"\",\"11122233A\",400,"{\"error\":\"'payment_method' field to be 'LOCAL' or 'SWIFT'\"}"
-\"SWIFT\",\"US\",\"x\",\"123\",\"ICBCUSBJ\",\"\",\"11122233A\",400,"{\"error\":\"account_name to be 2 and 10 chars\"}"
-\"SWIFT\",\"AU\",\"John Smith\",\"123456\",\"ICBCAUBJ\",\"\",\"\",400,"{\"error\":\"'bsb' mandatory for 'AU'\"}"
-\"SWIFT\",\"CN\",\"John Smith\",\"12345678\",\"ICBCUSBJ\",\"\",\"\",400,"{\"error\":\"Invalid swift code for 'CN'\"}"

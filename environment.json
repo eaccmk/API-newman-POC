@@ -1,0 +1,17 @@
+{
+  "id": "2bdb9ba0-292e-8888-d49a-b717e4616bea",
+  "name": "Environment file to be passed with `-e` paramater with `newman` ",
+  "values": [
+    {
+      "key": "url",
+      "value": "https://api.agify.io/",
+      "description": "Endpoint to GET response",
+      "type": "text",
+      "enabled": true
+    }
+  ],
+  "timestamp": 1586783124,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at_time": "1586747117",
+  "_postman_exported_using": "Postman/5.5.3"
+}

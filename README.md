@@ -1,41 +1,49 @@
-# # apiAutomationTest
+# # API-newman-POC  🚀
 
-_Very simple API Automation test to verify details at given endpoint_
- README and _believe me_ (my first API automation task...)
+This Project was created to as a [mvp] 🚀 for running newman(postman CLI)
 
-# QA - API Automation Assessment
+# Parent Project 🎅
+This repository is linked to its **Parent POC Project**, here is the link [Test-Automation-Project-POCs].
 
-*====================  -Before you start-  ====================*
-This test has ben ran on Windows OS (32 bit)
-* Download these files and install
-[NodeJS (v8.9.4)](https://nodejs.org/en/download/)
-[Python (v2.7.9)](https://www.python.org/downloads/release/python-279/)
-* Install Newman using cmd: `npm install -g newman` with
+# How To Run 🏃
+>	Its Simple! 
 
-Appedn Environment variable on your machine :
-```sh
-C:\Program Files\nodejs\
-C:\Program Files\Python27\Lib
-```
+**Step 1:** checkout this repository ( `git clone https://github.com/eaccmk/API-newman-POC.git` )
 
-*====================  -Runing this test-  ====================*
+**Step 2:** Go the path where you did checkout ☝️
 
-**Note:** _To run this paramaterized test from command line (considering for CI/Jenkins run) use below command_
+**Step 3:** Install newman `npm install newman` ref [HowTo Install newman]
 
-`newman run apiAirwallex_Collection.json -d ApiTestData.csv -e preview_environment.json
-`
-
-*====================  -File Details-  ====================*
-
-Postman API Collection file: `apiAirwallex_Collection.json`  
-Passing environemnt details through this file : `preview_environment.json`
-Test data file (we can include as many as test cases we want) : `ApiTestData.csv`
+**Step 4:** Run on your terminal/cmd: `newman run api_collection.json -e environment.json -d test_data.csv`
 
 
-**soft note:** _In case you face issues running this tests you can message me_
+# Some Details about project
 
-Click to view my [GitHub](gists@eaccmk) profile
+- `api_collection.json`  : Test API Collection file ( Refer [How To Get This])
+
+- `environment.json` : Test Environment file, enables to run ☝️ same collection on different envs.
+
+- `test_data.csv` : Test data file (This may be optional in most of the cases) 
 
 
-[//]: # (Refered https://dillinger.io/  for this pretty formatting)
-[//]: # ([gists@eaccmk] <https://github.com/eaccmk/>)
+# Sample Result run on terminal
+
+Look at this [wiki]
+
+# Credits 🙏
+
+Credit goes to [agify.io] for free API available to test.
+
+## License 🔰
+
+**API-newman-POC** was released under [MIT License](LICENSE)
+
+
+[\\]: <> (This is a commented section and should not be visible in README file)
+
+[mvp]: <https://g.co/kgs/PkxYkz>
+[Test-Automation-Project-POCs]: <https://github.com/eaccmk/Test-Automation-Project-POCs>
+[wiki]: <wiki/README.md>
+[How To Get This]: <https://learning.postman.com/docs/postman/collection-runs/sharing-a-collection-run/>
+[HowTo Install newman]: <https://www.npmjs.com/package/newman>
+[agify.io]: <https://agify.io/>
