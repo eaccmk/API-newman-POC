@@ -1,6 +1,6 @@
-# API-newman-POC
+# API-newman-POC 🚀
 
-This Project was created to as a [mvp] 🚀 for running **newman** _postman CLI_
+This Project was created to as a [mvp] for running **newman** _postman CLI_
 
 # Parent Project 🎅
 This repository is linked to its **Parent POC Project**, here is the link [Test-Automation-Project-POCs].
@@ -14,12 +14,12 @@ This repository is linked to its **Parent POC Project**, here is the link [Test-
 
 **Step 3:** Install newman `npm install newman` ref [HowTo Install newman]
 
-**Step 4:** Run on your terminal/cmd: `newman run api_collection.json -e environment.json -d test_data.csv`
+**Step 4:** Run `newman run api_collection.json -e environment.json -d test_data.csv`
 
 
 # Some Details about project
 
-- `api_collection.json`  : Test API Collection file ( Refer [How To Get This])
+- `api_collection.json`  : Test API Collection file, see [How To Get This]
 
 - `environment.json` : Test Environment file, enables to run ☝️ same collection on different envs.
 
@@ -28,11 +28,11 @@ This repository is linked to its **Parent POC Project**, here is the link [Test-
 
 # Sample Result run on terminal
 
-Look at this [wiki]
+Look at this [wiki] for more...
 
 # Credits 🙏
 
-Credit goes to [agify.io] for free API available to test.
+Thanks ! [agify.io] for making API free for test.
 
 ## License 🔰
 
