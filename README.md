@@ -1,4 +1,4 @@
-# # API-newman-POC  🚀
+# API-newman-POC
 
 This Project was created to as a [mvp] 🚀 for running **newman** _postman CLI_
 
