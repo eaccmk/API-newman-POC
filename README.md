@@ -1,6 +1,6 @@
 # # API-newman-POC  🚀
 
-This Project was created to as a [mvp] 🚀 for running newman(postman CLI)
+This Project was created to as a [mvp] 🚀 for running **newman** _postman CLI_
 
 # Parent Project 🎅
 This repository is linked to its **Parent POC Project**, here is the link [Test-Automation-Project-POCs].
