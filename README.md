@@ -2,10 +2,10 @@
 
 This Project was created to as a [mvp] for running **newman** _postman CLI_
 
-# Parent Project 🎅
+## Parent Project 🎅
 This repository is linked to its **Parent POC Project**, here is the link [Test-Automation-Project-POCs].
 
-# How To Run 🏃
+## How To Run 🏃
 >	Its Simple! 
 
 **Step 1:** checkout this repository ( `git clone https://github.com/eaccmk/API-newman-POC.git` )
@@ -17,7 +17,7 @@ This repository is linked to its **Parent POC Project**, here is the link [Test-
 **Step 4:** Run `newman run api_collection.json -e environment.json -d test_data.csv`
 
 
-# Some Details about project
+## Some Details about project
 
 - `api_collection.json`  : Test API Collection file, see [How To Get This]
 
@@ -26,11 +26,11 @@ This repository is linked to its **Parent POC Project**, here is the link [Test-
 - `test_data.csv` : Test data file (This may be optional in most of the cases) 
 
 
-# Sample Result run on terminal
+## Sample Result run on terminal
 
 Look at this [wiki] for more...
 
-# Credits 🙏
+## Credits 🙏
 
 Thanks ! [agify.io] for making API free for test.
 
